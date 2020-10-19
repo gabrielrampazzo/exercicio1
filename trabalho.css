@@ -1,0 +1,139 @@
+*{
+	padding:5px;
+	margin:0;
+	font-family:tahoma, sans serif;
+}
+
+#cabecalho{
+	height:260px;
+	margin-top:10px;
+	text-align: center;
+}
+
+#menu{
+	background-color: purple;
+	height:60px;
+	border-radius: 10px;
+	text-align: center;
+}
+#menu li{
+	display: inline;
+}
+#menu a{
+	color: white;
+	font-size: 25px;
+	margin: 0 20px 0 20px;
+	padding: 7px 15px;
+	text-decoration: none;
+	line-height: 60px;
+}
+#menu a:hover{
+	border:2px solid white;
+	border-radius:10px;
+}
+
+#carrousel{
+	border:1px solid black;
+}
+
+#conteudo{
+	
+	padding:10px 0;
+	display:grid;
+	grid-template-columns: 32.62% 32.62% 32.62%;
+	grid-gap:15px;
+}
+#c1{
+	padding:10px 25px;
+	background-color:#1E90FF;
+	border-radius:10px;
+}
+#c2{
+	padding:10px 25px;
+	background-color:#3CB371;
+	border-radius:10px;
+}
+#c3{
+	padding:10px 25px;
+	background-color:#A0522D;
+	border-radius:10px;
+}
+.img_conteudo{
+	width: 100%;
+	height: 200px;
+	border-radius:10px;
+}
+.p_conteudo{
+	text-align:justify;
+	font-family:tahoma;
+}
+.h2_conteudo{
+	text-align:center;
+	font-family:tahoma;
+	
+}
+#galeria{
+    background-color:#87CEFA;
+    display: grid;
+    grid-template-columns:19% 19% 19% 19% 19%;
+    grid-gap: 15.5px;
+    padding-top:50px;
+    padding-bottom:50px;
+   
+}
+.img_galeria{
+    height: 170px;
+    width: 100%;
+    border-radius:5px;
+}
+.img_galeria:hover{
+    -webkit-box-shadow: 4px 7px 32px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 7px 32px 11px rgba(0,0,0,0.75);
+    box-shadow: 4px 7px 32px 11px rgba(0,0,0,0.75);
+}
+
+#jumbotron{
+	padding: 100px 300px;
+	text-align: center;	
+}
+
+#jumbotron p{
+	font-family: calibri;
+	font-size: 20px;
+	color:#6A5ACD;	
+}
+
+.button_jumbo{
+	padding: 10px 70px;
+	background-color: #00FF00 ;
+	color: white ;
+	font-family: calibri;
+	border: none;
+	boder- radius:10px;
+	font-size: 20px;
+}
+
+.button_jumbo:hover{
+	background-color: #4B0082 ;
+	transition: 0.5s;
+}
+
+
+#rodape{
+    border: 2px double red;
+border-radius: 17px;
+color: white;
+background-color:#1C1C1C;
+font-size:20px;
+padding:50px 100px;
+display: grid;
+grid-template-columns: 30% 25% 30%;
+grid-gap: 15%;
+}
+#rodape a{
+    color:white;
+    text-decoration:none;
+}
+#rodape a:hover{
+    text-decoration:underline;
+}	
